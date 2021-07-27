@@ -3,3 +3,19 @@
 .logo{
   width: 2.25rem;
 }
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+/* Menu Links */
+
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: .0375rem;
+  cursor: pointer; 
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
