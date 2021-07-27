@@ -1,3 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+:root{
+  --primary-blue: rgb(0, 47, 255); 
+}
+
+body{
+  font-family: "Oswald" sans-serif;
+}
+
 /* Navbar */
 
 .logo{
@@ -8,14 +19,26 @@
   margin-left: auto;
 }
 
+
 /* Menu Links */
 
 nav a.nav-link {
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: .0375rem;
   cursor: pointer; 
 }
 
 nav ul li {
   text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  color: var(--primary-blue)  !important;
+}
+
+.navbar-brand{
+  max-width: 2.25rem;
+  padding: 0 !important;
 }
