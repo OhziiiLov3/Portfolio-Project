@@ -3,6 +3,7 @@
 
 :root{
   --primary-blue: rgb(0, 47, 255); 
+  --primary-black: black;
 }
 
 body{
@@ -11,9 +12,12 @@ body{
 
 /* Navbar */
 
+
 .logo{
-  width: 2.25rem;
+  width: 4.25rem;
+  height: 6rem  !important;
 }
+
 
 .navbar-nav{
   margin-left: auto;
@@ -35,10 +39,16 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: .75rem;
   margin-left: .75rem;
+  color: var(--primary-black)  !important;
+}
+
+.navbar-nav > li > a:hover {
   color: var(--primary-blue)  !important;
 }
 
 .navbar-brand{
   max-width: 2.25rem;
   padding: 0 !important;
+  height: 6rem  !important;
 }
+
