@@ -4,15 +4,15 @@
 :root{
   --primary-blue: rgba(0, 47, 255, 0.884); 
   --primary-black: black;
-  --primary-transparent:  rgba(255,255,255, .1);
+  --primary-transparent:  rgba(255,255,255, .8);
   --primary-white: rgb(248, 249, 250);
 }
 
 body{
-  font-family: "Oswald" sans-serif;
+font-family: 'Oswald', sans-serif !important;
 }
 
-/* Navbar */
+/* ***** NAVBAR ***** */
 
 .navbar{
   border-bottom: .1875rem solid var(--primary-transparent) !important;
@@ -69,3 +69,81 @@ nav ul li {
  
 }
 
+@media(max-width:768px) {
+  .navbar-brnad {
+    font-size: 5rem !important;
+  }
+}
+
+/* ***** HEADER ***** */
+
+.header-wrapper{
+  position: relative;
+  background: url(globencer-qerfHAnHJcU-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:90vh; 
+  z-index: -10;
+}
+
+
+.main-info{
+  display: flex;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Oswald', sans-serif!important; 
+}
+
+.main-info h1{
+  color: var(--primary-black);
+  text-transform: uppercase;
+}
+
+@media(max-width:768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+}
+
+
+/* ***** TYPED TEXT **** */
+
+
+.typed-text{
+font-size: 2rem;
+color: var(--primary-transparent);
+
+}
+
+@media(max-width:768px) {
+  .typed-text {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* ***** HEADER **** */
+
+.btn-main{
+  border: 3px solid var(--primary-blue);
+  background-color: var(--primary-blue);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem .75rem  .75rem .75rem; 
+  color: var(--primary-white);
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.btn-main:hover {
+  text-decoration: none;
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+  transition: .2s ease-in;
+}
