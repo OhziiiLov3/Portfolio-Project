@@ -11,7 +11,7 @@ const Services = () => {
                     <div className="row">
                         <div className="col-md-4 col-sm-7">
                             <div className="box">
-                                <div className="circle"> <FontAwesomeIcon icon ={faDesktop} size="2x"/> </div>
+                                <div className="circle"> <FontAwesomeIcon className="service-icon" icon ={faDesktop} size="2x"/> </div>
                                 <h3> Web Development</h3>
                                 <p> Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
@@ -19,7 +19,7 @@ const Services = () => {
                         {/*  */}
                         <div className="col-md-4 col-sm-7">
                             <div className="box">
-                                <div className="circle"> <FontAwesomeIcon icon={faHeadphones} size="2x" /> </div>
+                                <div className="circle"> <FontAwesomeIcon className="service-icon" icon={faHeadphones} size="2x" /> </div>
                                 <h3> Audio Engineering</h3>
                                 <p> Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
                             </div>
@@ -27,7 +27,7 @@ const Services = () => {
                         {/*  */}
                         <div className="col-md-4 col-sm-7">
                             <div className="box">
-                                <div className="circle"> <FontAwesomeIcon icon={faTint} size="2x" /> </div>
+                                <div className="circle"> <FontAwesomeIcon className="service-icon" icon={faTint} size="2x" /> </div>
                                 <h3>Zooty Water</h3>
                                 <p> Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
                             </div>

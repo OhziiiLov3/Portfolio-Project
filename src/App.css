@@ -213,7 +213,19 @@ color: var(--primary-transparent);
 
 .services .circle{
   position:relative;
-  margin: .175rem;
+  margin: 3rem auto;
   background-color: var(--primary-transparent) !important;
-  border-radius: 2%;
+  border-radius: 50%;
+  width: 5.125rem;
+  height: 5.125rem;
+}
+
+.service-icon{
+  font-size: 3.4rem;
+  position: absolute;
+  align-items: center;
+  color: var(--primary-blue);
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
