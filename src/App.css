@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;307&family=Roboto:wght@100&display=swap');
 
 :root{
   --primary-blue: rgba(0, 47, 255, 0.884); 
@@ -146,4 +147,39 @@ color: var(--primary-transparent);
   background-color: var(--primary-blue);
   color: var(--primary-white);
   transition: .2s ease-in;
+}
+
+/* ABOUT  */
+
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.aboutimage{
+  width: 18rem;
+  border-radius: 50%;
+  padding: .2rem;
+  border: 5px solid var(--primary-black);
+}
+
+.about-heading{
+  color: var(--primary-blue);
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.about-heading:hover{
+  color: var(--primary-blue);
+
+}
+
+@media(max-width:468px) {
+  .aboutimage{
+    width: 10rem;
+  }
 }
