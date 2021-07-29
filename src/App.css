@@ -197,8 +197,27 @@ color: var(--primary-transparent);
 
 
 .services h1 {
-  color:var(--primary-black);
+  color:var(--primary-transparent);
   padding: .75rem;
+  text-transform: uppercase;
+  
+}
+.services h3 {
+  color:var(--primary-black);
+  padding: .25rem;
+  text-transform: uppercase;
+  
+}
+.services .box:hover h3 {
+  color:var(--primary-transparent);
+  padding: .25rem;
+  text-transform: uppercase;
+  
+}
+
+.services .box:hover p {
+  color:var(--primary-black);
+  padding: .25rem;
   text-transform: uppercase;
   
 }
@@ -233,7 +252,7 @@ color: var(--primary-transparent);
 
 .services .box {
   height: 28rem;
-  border-bottom: 5px solid var(--primary-transparent);
+  border-bottom: .3125rem solid var(--primary-transparent);
   padding: .525rem;
   margin-bottom: 1rem;
     background: linear-gradient(to right bottom, 
@@ -246,3 +265,18 @@ color: var(--primary-transparent);
   border-left: 1px solid rgba(255,255,255, 0.3);
   border-radius: 5px;
 }
+
+.services .box:hover{
+  background: var(--primary-blue);
+  border-bottom: .3125rem var(--primary-black)  !important;
+}
+
+
+.services .box:hover .service-icon{
+  color: var(--primary-black)  !important;
+}
+
+.service-link{
+  text-decoration: none;
+}
+

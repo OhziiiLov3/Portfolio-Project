@@ -12,7 +12,7 @@ const Services = () => {
                         <div className="col-md-4 col-sm-7">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="service-icon" icon ={faDesktop} size="2x"/> </div>
-                                <h3> Web Development</h3>
+                                <a  className="service-link" href="/"> <h3> Web Development</h3></a>
                                 <p> Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ const Services = () => {
                         <div className="col-md-4 col-sm-7">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="service-icon" icon={faHeadphones} size="2x" /> </div>
-                                <h3> Audio Engineering</h3>
+                                <a className="service-link" href="/"><h3> Audio Engineering</h3></a>
                                 <p> Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ const Services = () => {
                         <div className="col-md-4 col-sm-7">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="service-icon" icon={faTint} size="2x" /> </div>
-                                <h3>Zooty Water</h3>
+                                <a className="service-link" href="/">  <h3>Zooty Water</h3> </a>
                                 <p> Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
                             </div>
                         </div>
