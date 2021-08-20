@@ -397,19 +397,20 @@ color: var(--primary-sliver);
 
 .project-wrapper {
   background: var(--primary-sliver);
-  padding: 3rem 0;
-}
+  padding: 5rem 0;
+} 
 
-.project-image {
+ .project-image {
   width: 15rem;
-  border: 1px solid var(--primary-blue);
+  border: 2px solid var(--primary-blue);
   padding: 0 0.5rem;
-}
 
-.project-image-box{
+} 
+
+ .project-image-box{
   position: relative; 
-   margin: 1rem;
-}
+  margin: 1rem; 
+} 
 
 /* *****  OVERFLOW BOX ******/
 

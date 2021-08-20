@@ -9,29 +9,30 @@ const Projects = () => {
         <div className="project-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Projects</h1>
-                <div className="image-box-wrapper row justify-content-center">
+                <div className="image-box-wrapper row row-cols-auto justify-content-center">
                     <div className="project-image-box">
-                    <img className="project-image" src={digipet} alt="Digipet Project"/> 
-                        <div className="overflow"></div>
-                </div>
-                    {/*  */}
-                    <div className="project-image-box">
-                    <img className="project-image" src={housing4u} alt="Housing4u Project" />
+                        <img className="project-image" src={digipet} alt="Digipet Project"/> 
                         <div className="overflow"></div>
                     </div>
                     {/*  */}
                     <div className="project-image-box">
-                    <img className="project-image" src={wayfarer} alt="Wayfarer Project" />
+                        <img className="project-image" src={housing4u} alt="Housing4u Project" />
                         <div className="overflow"></div>
                     </div>
                     {/*  */}
                     <div className="project-image-box">
-                    <img className="project-image" src={zootyWater} alt="Zootywater App Project" />
+                        <img className="project-image" src={wayfarer} alt="Wayfarer Project" />
+                        <div className="overflow"></div>
+                    </div>
+                    {/*  */}
+                    <div className="project-image-box">
+                        <img className="project-image" src={zootyWater} alt="Zootywater App Project" />
                         <div className="overflow"></div>
                     </div>
                 </div>
             </div>
         </div>
+    
     )
 }
 
