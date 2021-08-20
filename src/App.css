@@ -22,7 +22,7 @@ font-family: 'Oswald', sans-serif !important;
 /* ***** NAVBAR ***** */
 
 .navbar{
-  border-bottom: .1875rem solid var(--primary-transparent) !important;
+  border-bottom: .1875rem solid var(--primary-sliver) !important;
   backdrop-filter: blur(5px);
 }
 
@@ -77,7 +77,7 @@ nav ul li {
 }
 
 @media(max-width:768px) {
-  .navbar-brnad {
+  .navbar-brand {
     font-size: 5rem !important;
   }
 }
@@ -396,14 +396,27 @@ color: var(--primary-sliver);
 /* ***** PROJECTS ******/
 
 .project-wrapper {
-  background: var(--primary-sliver);
+  background: var(--primary-transparent-blue);
   padding: 5rem 0;
 } 
 
  .project-image {
   width: 15rem;
-  border: 2px solid var(--primary-blue);
+  height: 8rem;
+  border: 2px solid var(--Primary-glass);
   padding: 0 0.5rem;
+  height: 8rem;
+  border-bottom: .3125rem solid var(--primary-transparent);
+  margin-bottom: 1rem;
+  background: linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 0.07),
+    rgba(255, 255, 255, 0.06)
+    );
+  box-shadow: 0 0 1rem 0 rgba(0 0 0 .7);
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255,255,255, 0.3);
+  border-left: 1px solid rgba(255,255,255, 0.3);
+  border-radius: 5px;
 
 } 
 
@@ -412,15 +425,25 @@ color: var(--primary-sliver);
   margin: 1rem; 
 } 
 
+.text-uppercase {
+  color:var(--primary-transparent);
+  padding: .75rem;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif importnat;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
 /* *****  OVERFLOW BOX ******/
 
 .overflow{
   position: absolute;
   opacity: 0;
-  background: var(--primary-transparent-blue);
+  background: var(--primary-sliver);
   width: 15rem;
   height: 8rem;
   top: 0;
+  border-radius: 5px;
   border: 1px solid var(--Primary-glass);
   cursor: pointer;
 
@@ -432,3 +455,17 @@ color: var(--primary-sliver);
 
 }
 
+.project-icon{ 
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-transparent-blue);
+  font-size: 1.5rem;
+}
+
+.project-image-box:hover .project-icon {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
