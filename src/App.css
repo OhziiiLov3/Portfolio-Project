@@ -401,11 +401,10 @@ color: var(--primary-sliver);
 } 
 
  .project-image {
-  width: 15rem;
-  height: 8rem;
+  width: 16rem;
+  height: 10rem;
   border: 2px solid var(--Primary-glass);
   padding: 0 0.5rem;
-  height: 8rem;
   border-bottom: .3125rem solid var(--primary-transparent);
   margin-bottom: 1rem;
   background: linear-gradient(to right bottom, 
@@ -440,8 +439,8 @@ color: var(--primary-sliver);
   position: absolute;
   opacity: 0;
   background: var(--primary-sliver);
-  width: 15rem;
-  height: 8rem;
+  width: 16rem;
+  height: 10rem;
   top: 0;
   border-radius: 5px;
   border: 1px solid var(--Primary-glass);
