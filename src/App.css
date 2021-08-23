@@ -70,7 +70,7 @@ nav ul li {
 }
 
 .navbar-brand{
-  max-width: 2.25rem;
+  max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem  !important;
  
@@ -78,7 +78,8 @@ nav ul li {
 
 @media(max-width:768px) {
   .navbar-brand {
-    font-size: 5rem !important;
+    font-size: 2rem !important;
+    font-family: 'Oswald', sans-serif !important;
   }
 }
 
@@ -467,4 +468,46 @@ color: var(--primary-sliver);
   opacity: 60%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+
+/****** POP UP BOX***** */
+
+.project-image-popupbox {
+  width: 50rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer; 
+  color: var(--primary-transparent-blue);
+}
+
+.hyper-link:hover {
+  color: var(--primary-sliver);
+}
+
+/*------------ MEDIA ------------------*/
+@media(max-width: 768px) {
+  .project-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-height: 570px) {
+.popupbox-wrapper {
+  height: 100%;
+}
+  .project-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+    .project-image-popupbox {
+      width: 30%;
+  }
 }
