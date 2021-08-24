@@ -562,13 +562,61 @@ color: var(--primary-sliver);
 }
 
 .contacts textarea {
-  height: 12.5rem !important;
+  height: 12.2rem !important;
 
 
 }
 
-.contacts-btn {
+.contact-btn {
   margin: 1rem 0 0 0;
-  width:100%;
   background: none;
+  width: 100%;
+  color: var(--primary-transparent-blue);
+  font-family: 'Oswald', sans-serif importnat;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.contact-btn:hover{
+  color: var(--primary-sliver);
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: .125rem;
+  background: var(--primary-transparent-blue);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line{
+  width:100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control{
+  margin: -0.3rem 0;
+
+}
+
+textarea.form-control{
+  margin: -0.3rem 0;
+
+}
+
+/* ***** MEDIA **** */
+
+@media(max-width:768px){
+  .contacts{
+    overflow-x: hidden;
+  }
+  .contacts .container{
+    padding: 0 1rem;
+  }
+  .contacts p {
+    padding: 0 0.4rem;
+  }
 }
