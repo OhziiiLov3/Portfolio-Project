@@ -12,32 +12,6 @@ import "react-popupbox/dist/react-popupbox.css";
 import 'reactjs-popup/dist/index.css';
 
 const Projects = () => {
-
-// ZOOTY WATER APP
-// const openPopupboxZootywater = () => {
-//     const content = (
-//     <>
-//     <img src={zootyWater} alt="zooty water pop up box"/>
-//     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quisquam, aliquid ad tenetur reiciendis suscipit, explicabo soluta illo expedita</p>
-//         <b>Zooty Water:</b> <a className="hyper-link" onClick= {() => window.open("https://zootywaterapp.herokuapp.com/")}>https://zootywaterapp.herokuapp.com/</a>
-//     </>
-
-//     )
-//     PopupboxManager.open({ content });
-//     PopupboxManager.update({
-//         content,
-//         config: {
-//             titleBar: {
-//                 text: "Your Edited Text Here",
-//             },
-//         },
-//     });
-// }
-
-//     const popupboxConfigZootyWater = {
-
-//     }
-
     // Zooty Water APP
     const openPopupboxZootywater = () => {
         const content = (

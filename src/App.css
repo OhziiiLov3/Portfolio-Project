@@ -168,7 +168,7 @@ color: var(--primary-sliver);
 .aboutimage{
   width: 18rem;
   border-radius: 50%;
-  padding: .2rem;
+  padding: .3rem;
   border: 5px solid var(--primary-black);
 }
 
@@ -510,4 +510,65 @@ color: var(--primary-sliver);
     .project-image-popupbox {
       width: 30%;
   }
+}
+
+/*------------ Contacts------------------*/
+
+.contacts{
+  background: var(--primary-white);
+  padding: 3rem 0;
+}
+
+.contacts h1{ 
+  color: var(--primary-transparent-blue);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif importnat;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.contacts p{
+  color: var(--primary-black);
+  font-size: 1.2rem;
+}
+
+/*------------ INPUTS------------------*/
+
+.contacts input, .contacts textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: none; 
+  resize: none;
+  border: 0;
+  border-bottom: .125rem solid var(--primary-sliver);
+  border-radius: 0;
+  color: var(--primary-transparent-blue);
+  outline: 0 !important;
+  box-shadow:none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+
+}
+
+.contacts .container{
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-transparent-blue);
+  border-bottom: .125rem solid var(--primary-sliver); 
+}
+
+.contacts textarea {
+  height: 12.5rem !important;
+
+
+}
+
+.contacts-btn {
+  margin: 1rem 0 0 0;
+  width:100%;
+  background: none;
 }
