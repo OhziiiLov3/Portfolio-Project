@@ -308,8 +308,7 @@ color: var(--primary-sliver);
 .experience h1 {
   text-transform: uppercase;
   color: var(--primary-blue);
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .experience-wrapper:before {
@@ -365,8 +364,8 @@ color: var(--primary-sliver);
 }
 
 .timeline-content p{
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   font-weight: 400;
 }
 
@@ -429,8 +428,8 @@ color: var(--primary-sliver);
   color:var(--primary-transparent);
   padding: .75rem;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif importnat;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   
 }
 
@@ -523,8 +522,7 @@ color: var(--primary-sliver);
   color: var(--primary-transparent-blue);
   padding: 1.3rem 0;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif importnat;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
 
 }
 
@@ -548,6 +546,8 @@ color: var(--primary-sliver);
   box-shadow:none !important;
   margin-bottom: 1rem;
   padding-left: 0 !important;
+  font-family: 'Oswald', sans-serif !important;
+  font-weight: 800;
 
 }
 
@@ -572,8 +572,8 @@ color: var(--primary-sliver);
   background: none;
   width: 100%;
   color: var(--primary-transparent-blue);
-  font-family: 'Oswald', sans-serif importnat;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 
 }
 
@@ -611,11 +611,15 @@ textarea.form-control{
   color: var(--primary-transparent-blue);
   background: var(--primary-sliver);
   text-align: left;
+  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .success-message {
   font-weight: 900;
   color: var(--primary-transparent-blue);
+  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 
@@ -631,4 +635,30 @@ textarea.form-control{
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+
+/* ********** FOOTER ******** */
+
+.footer{
+  background: var(--primary-sliver);
+  color: var(--primary-black);
+  padding: 3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-transparent-blue);
+
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-black);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
