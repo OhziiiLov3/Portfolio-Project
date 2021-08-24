@@ -90,7 +90,7 @@ nav ul li {
   background: url(globencer-qerfHAnHJcU-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height:90vh; 
+  height:100vh; 
   z-index: -10;
 }
 
@@ -467,6 +467,10 @@ color: var(--primary-sliver);
   opacity: 60%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.popupbox-wrapper{
+  margin-top: 5rem;
 }
 
 
