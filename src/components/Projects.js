@@ -19,6 +19,8 @@ const Projects = () => {
                 <img className="project-image-popupbox" src={zootyWater} alt="ZootyWater Project..." />
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://zootywaterapp.herokuapp.com")}>https://zootywaterapp.herokuapp.com</a>
+                <br />
+                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/zootywater", "_blank")}>https://github.com/OhziiiLov3/zootywater</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -48,6 +50,8 @@ const Projects = () => {
                 <img className="project-image-popupbox" src={housing4u} alt="Housing4U Project..." />
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://housing4you.herokuapp.com" , "_blank")}> https://housing4you.herokuapp.com</a>
+                <br/>
+                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/HOUSING4U", "_blank")}>https://github.com/OhziiiLov3/HOUSING4U</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -77,6 +81,8 @@ const Projects = () => {
                 <img className="project-image-popupbox" src={wayfarer} alt="Wayfarer Project..." />
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://project2-wayfarer.herokuapp.com/", "_blank")}> https://project2-wayfarer.herokuapp.com/</a>
+                <br/>
+                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/wayfarer", "_blank")}>https://github.com/OhziiiLov3/wayfarer</a>
             </>
         )
         PopupboxManager.open({ content })
@@ -105,7 +111,9 @@ const Projects = () => {
             <>
                 <img className="project-image-popupbox" src={digipet} alt="Wayfarer Project..." />
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-                <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://pages.git.generalassemb.ly/kbaskerville/ZootyMon/", "_blank")}> https://pages.git.generalassemb.ly/kbaskerville/ZootyMon//</a>
+                <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://pages.git.generalassemb.ly/kbaskerville/ZootyMon/", "_blank")}>https://pages.git.generalassemb.ly/kbaskerville/ZootyMon/</a>
+                <br />
+                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/OhziiiLov3/SEI_DigiPet-</a>
             </>
         )
         PopupboxManager.open({ content })

@@ -128,7 +128,7 @@ export const Contacts = () => {
                         </div>
                         <div className="col-md-6 col-xs-12">
                             {/* DESCRIPTION */}
-                            <div className="text-center">
+                            <div id="contact-link" className="text-center">
                                 <textarea
                                     type="text"
                                     className="form-control"

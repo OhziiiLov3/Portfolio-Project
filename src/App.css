@@ -60,7 +60,7 @@ nav ul li {
   color: var(--primary-blue)  !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-top: .1875rem solid var(--primary-black);
 
 }
@@ -91,7 +91,6 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height:100vh; 
-  z-index: -10;
 }
 
 
@@ -107,6 +106,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: 'Oswald', sans-serif!important; 
+  z-index: 1;
 }
 
 .main-info h1{
@@ -138,22 +138,24 @@ color: var(--primary-sliver);
 
 /* ***** HEADER **** */
 
-.btn-main{
+ .btn  {
   border: 3px solid var(--primary-blue);
   background-color: var(--primary-blue);
-  text-transform: uppercase;
-  border-radius: 0;
-  padding: 0.625rem .75rem  .75rem .75rem; 
+  text-transform: uppercase !important;
+  border-radius: 3 !important;
+  padding: 0.625rem .75rem  .75rem .75rem !important; 
   color: var(--primary-white);
-  margin: 2rem;
-  text-decoration: none;
+  margin: 2rem !important;
+  text-decoration: none !important;
+  font-family: 'Oswald', sans-serif  !important;
+  z-index: 100;
 }
 
-.btn-main:hover {
-  text-decoration: none;
-  background-color: var(--primary-blue);
-  color: var(--primary-white);
-  transition: .2s ease-in;
+.btn:hover {
+  text-decoration: none !important;
+  color: var(--primary-white) !important;
+  transition: .2s ease-in !important; 
+  z-index: 100;
 }
 
 /* ***** ABOUT ****  */
@@ -175,8 +177,8 @@ color: var(--primary-sliver);
 .about-heading{
   color: var(--primary-blue);
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif  !important;
+  font-family: 'Roboto', sans-serif !important;
 
 }
 
@@ -535,7 +537,7 @@ color: var(--primary-sliver);
   font-size: 1.2rem;
 }
 
-/*------------ INPUTS------------------*/
+/*------------ CONTACT INPUTS------------------*/
 
 .contacts input, .contacts textarea{
   width: 100%;
