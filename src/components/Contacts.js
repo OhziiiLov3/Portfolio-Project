@@ -49,8 +49,8 @@ export const Contacts = () => {
                         {/* NAME INPUT */}
                         <div className="text-center">
                         <input 
-                        className="form-control" 
                         type="text"
+                        className="form-control" 
                         placeholder="Name" 
                         name="name"
                         aria-invalid={errors.name ? "true" : "false"}
@@ -60,12 +60,14 @@ export const Contacts = () => {
                                             value: 20,
                                             message:
                                                 "Please enter a name with fewer than 20 characters",
+                                        
                                         },
-                                    })}
+                                    })
+                                }
                         />
                         <div className="line"></div>
                         </div>
-                        <span className="error-messgae">
+                        <span className="error-message">
                             {errors.name && errors.name.message}
                         </span>
                             {/* PHONE INPUT */}
@@ -93,15 +95,13 @@ export const Contacts = () => {
                                     placeholder="Email"
                                     name="email"
                                     aria-invalid={errors.email ? "true" : "false"}
-                                    ref={
-                                        {...register("email",{
+                                        {...register("email", {
                                             required: "Please provide you email",
                                             pattern: {
                                                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                                                 message: "invalid Email"
-                                            }
+                                            },
                                         })}
-                                    }
                                 />
                                 <div className="line"></div>
                             </div>
@@ -116,11 +116,9 @@ export const Contacts = () => {
                                     placeholder="Subject"
                                     name="subject"
                                     aria-invalid={errors.subject ? "true" : "false"}
-                                    ref={
                                         {...register("subject", {
                                             required: "OOPS, you forget to add the subject.",
                                         })}
-                                    }
                                 />
                                 <div className="line"></div>
                             </div>
@@ -129,20 +127,17 @@ export const Contacts = () => {
                             </span>
                         </div>
                         <div className="col-md-6 col-xs-12">
-                        {/* Description INPUT */}
                             {/* DESCRIPTION */}
                             <div className="text-center">
                                 <textarea
                                     type="text"
                                     className="form-control"
-                                    placeholder="Please describe shortly you project..."
+                                    placeholder="Please leave a breif message"
                                     name="description"
                                     aria-invalid={errors.description ? "true" : "false"}
-                                    ref={
                                         {...register("description",{
-                                            required: "Please describe shortly your project needs...",
+                                            required: "Please leave a detailed message...",
                                         })}
-                                    }
                                 ></textarea>
                                 <div className="line"></div>
                             </div>
