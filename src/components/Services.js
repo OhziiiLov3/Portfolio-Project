@@ -5,7 +5,7 @@ import { faDesktop, faHeadphones, faTint} from '@fortawesome/free-solid-svg-icon
 
 const Services = () => {
     return (
-        <div className="services">
+        <div id="services" className="services">
             <h1 className="py-4"><h1>My Services</h1>
                 <div className="container">
                     <div className="row">

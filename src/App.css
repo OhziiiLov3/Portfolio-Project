@@ -22,7 +22,7 @@ font-family: 'Oswald', sans-serif !important;
 /* ***** NAVBAR ***** */
 
 .navbar{
-  border-bottom: .1875rem solid var(--primary-sliver) !important;
+  border-bottom: .1875rem solid var(--primary-transparent-blue) !important;
   backdrop-filter: blur(5px);
 }
 
