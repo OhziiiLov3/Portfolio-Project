@@ -61,7 +61,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
-  border-top: .1875rem solid var(--primary-black);
+  border-top: .1875rem solid var(--primary-sliver);
 
 }
 
@@ -97,7 +97,7 @@ nav ul li {
 .main-info{
   display: flex;
   position: absolute;
-  top:0;
+  top: 2rem;;
   left: 0;
   right: 0;
   bottom: 0;
@@ -112,6 +112,11 @@ nav ul li {
 .main-info h1{
   color: var(--primary-black);
   text-transform: uppercase;
+   text-shadow:
+        0.03em 0 var(--primary-transparent),
+        0 0.03em var(--primary-transparent),
+        -0.03em 0 var(--primary-transparent),
+        0 -0.03em var(--primary-transparent);
 }
 
 @media(max-width:768px) {
@@ -126,8 +131,14 @@ nav ul li {
 
 .typed-text{
 font-size: 2rem;
-color: var(--primary-sliver);
+color: var(--primary-transparent);
+text-shadow:
+        0.03em 0 var(--primary-transparent-blue),
+        0 0.03em var(--primary-transparent-blue),
+        -0.03em 0 var(--primary-transparent-blue),
+        0 -0.03em var(--primary-transparent-blue);
 
+  font-family: 'Oswald', sans-serif  !important;
 }
 
 @media(max-width:768px) {
@@ -168,10 +179,12 @@ color: var(--primary-sliver);
 }
 
 .aboutimage{
+  position: relative;
   width: 18rem;
   border-radius: 50%;
   padding: .3rem;
   border: 5px solid var(--primary-black);
+  top: 40px;
 }
 
 .about-heading{
@@ -214,7 +227,7 @@ color: var(--primary-sliver);
 }
 .services h3 {
   color:var(--primary-black);
-  padding: .25rem;
+  padding: .20rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   
@@ -239,10 +252,26 @@ color: var(--primary-sliver);
 .services p {
   color:var(--primary-transparent);
   text-transform: none;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-family: 'Oswald', sans-serif;
   font-family: 'Roboto', sans-serif;
-  padding: .75rem;
+  padding: .50rem;
+}
+
+.shop-link{
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  color:var(--primary-sliver);
+  bottom: 3rem;
+  width: 40%;
+}
+
+@media(max-width:468px) {
+  .shop-link{
+    width: 50%;
+    height: 2.5rem;
+    bottom: 2.8rem;
+  }
 }
 
 .services .circle{
@@ -282,7 +311,7 @@ color: var(--primary-sliver);
 }
 
 .services .box:hover{
-  background: var(--primary-blue);
+  background: var(--Primary-glass);
   border-bottom: .3125rem var(--primary-black)  !important;
 }
 
