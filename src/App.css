@@ -623,7 +623,7 @@ text-shadow:
 .contact-btn {
   margin: 1rem 0 0 0;
   background: none;
-  width: 100%;
+  width: 75%;
   color: var(--primary-transparent-blue);
   font-family: 'Oswald', sans-serif !important;
   font-family: 'Roboto', sans-serif !important;
