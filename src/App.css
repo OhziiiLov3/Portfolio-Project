@@ -340,6 +340,19 @@ text-shadow:
   text-transform: uppercase;
   color: var(--primary-blue);
   font-family: 'Roboto', sans-serif !important;
+
+}
+
+.experience h2 {
+  text-transform: uppercase;
+  color: var(--primary-black);
+  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
+  text-shadow:
+        0.03em 0 var(--primary-transparent),
+        0 0.03em var(--primary-transparent),
+        -0.03em 0 var(--primary-transparent),
+        0 -0.03em var(--primary-transparent);
 }
 
 .experience-wrapper:before {
@@ -398,6 +411,11 @@ text-shadow:
   font-family: 'Oswald', sans-serif !important;
   font-family: 'Roboto', sans-serif !important;
   font-weight: 400;
+   text-shadow:
+        0.03em 0 var(--primary-transparent),
+        0 0.03em var(--primary-transparent),
+        -0.03em 0 var(--primary-transparent),
+        0 -0.03em var(--primary-transparent);
 }
 
 /* ****** MEDIA ******** */

@@ -17,7 +17,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="project-image-popupbox" src={zootyWater} alt="ZootyWater Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+                <p>Capstone Project that leveraged a Postgresql database, Python and the Django web framework to manage client-side browsing, server and database.</p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://zootywaterapp.herokuapp.com")}>https://zootywaterapp.herokuapp.com</a>
                 <br />
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/zootywater", "_blank")}>https://github.com/OhziiiLov3/zootywater</a>
@@ -48,7 +48,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="project-image-popupbox" src={housing4u} alt="Housing4U Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+                <p>Paired Programming Project: A MEN Stack Application built using Node.js, Express.js, Mongoose, EJS on MongoDB</p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://housing4you.herokuapp.com" , "_blank")}> https://housing4you.herokuapp.com</a>
                 <br/>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/HOUSING4U", "_blank")}>https://github.com/OhziiiLov3/HOUSING4U</a>
@@ -79,7 +79,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="project-image-popupbox" src={wayfarer} alt="Wayfarer Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+                <p>Team Project: A travel post application built using Django, Python, and PostgreSQL.</p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://project2-wayfarer.herokuapp.com/", "_blank")}> https://project2-wayfarer.herokuapp.com/</a>
                 <br/>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/wayfarer", "_blank")}>https://github.com/OhziiiLov3/wayfarer</a>
@@ -110,7 +110,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="project-image-popupbox" src={digipet} alt="Wayfarer Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+                <p>A Virtual Pet/Game built in pure HTML5/CSS with Javascript and JQuery</p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://pages.git.generalassemb.ly/kbaskerville/ZootyMon/", "_blank")}>https://pages.git.generalassemb.ly/kbaskerville/ZootyMon/</a>
                 <br />
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/OhziiiLov3/SEI_DigiPet-</a>
