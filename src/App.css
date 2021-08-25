@@ -632,7 +632,7 @@ text-shadow:
 
 .contact-btn:hover{
   color: var(--primary-sliver);
-  opacity: 60%;
+  opacity: 70%;
   transition: 0.3s ease-in-out;
 }
 
