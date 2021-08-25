@@ -35,7 +35,7 @@ const Services = () => {
                                 <div className="circle"> <FontAwesomeIcon className="service-icon" icon={faTint} size="2x" /> </div>
                                 <a className="service-link" href="https://zootyworld.com/shop"> <h3>Zooty Water</h3> </a>
                                 <p>
-                                    Zooty Water is supercharged and Actiavated using the Sun’s power!
+                                    Zooty Water is supercharged and Activated using the Sun’s power!
                                 </p>
                                 <p>Active ingredients: Pure Energy, Health, and Wealth!</p> 
                             </div>

@@ -79,7 +79,7 @@ export const Footer = () => {
                         </div>
                         <p className="pt-3 text-center">
                             Copyright&copy;
-                            {new Date().getFullYear()}&nbsp;Zooty Worrld LLC | All Rights Reserved
+                            {new Date().getFullYear()}&nbsp;Zooty World LLC | All Rights Reserved
                         </p>
                     </div>
                 </div>

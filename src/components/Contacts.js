@@ -132,7 +132,7 @@ export const Contacts = () => {
                                 <textarea
                                     type="text"
                                     className="form-control"
-                                    placeholder="Please leave a breif message"
+                                    placeholder="Please leave a brief message"
                                     name="description"
                                     aria-invalid={errors.description ? "true" : "false"}
                                         {...register("description",{
