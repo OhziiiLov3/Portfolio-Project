@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div id="home" className="header-wrapper">
             <div className="main-info" >
-                <h1> Web Development Portfolio and Services</h1>
+                <h1> Software Development Portfolio</h1>
                 <Typed
                     className="typed-text"
                     strings={[" Entreprneur ", "Full Stack Software Engineer ", " Audio Engineer " , " and Alkaline Water Enthusiast " ]}
