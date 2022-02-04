@@ -184,7 +184,7 @@ text-shadow:
   border-radius: 50%;
   padding: .3rem;
   border: 5px solid var(--primary-black);
-  top: 40px;
+  top: 10px;
 }
 
 .about-heading{
@@ -252,10 +252,10 @@ text-shadow:
 .services p {
   color:var(--primary-transparent);
   text-transform: none;
-  font-size: 1.4rem;
+  font-size: 1.19rem;
   font-family: 'Oswald', sans-serif;
   font-family: 'Roboto', sans-serif;
-  padding: .50rem;
+  padding: .10rem;
 }
 
 .shop-link{
@@ -488,7 +488,7 @@ text-shadow:
   position: absolute;
   opacity: 0;
   background: var(--primary-sliver);
-  width: 16rem;
+  width: 10rem;
   height: 10rem;
   top: 0;
   border-radius: 5px;
@@ -526,7 +526,7 @@ text-shadow:
 /****** POP UP BOX***** */
 
 .project-image-popupbox {
-  width: 50rem;
+  width: 48rem;
   padding: 0 0.5rem;
 }
 

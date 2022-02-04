@@ -17,7 +17,13 @@ const Projects = () => {
         const content = (
             <>
                 <img className="project-image-popupbox" src={zootyWater} alt="ZootyWater Project..." />
-                <p>Capstone Project that leveraged a Postgresql database, Python and the Django web framework to manage client-side browsing, server and database.</p>
+                <p>Full Stack Application built with Python, Django, PostgreSQL
+                I designed this application with my business ZootyWater in mind. I wanted to display my creativity by implementing a glass theme and prompting the user to sign up and log in to place an order and make a purchase.
+                <ul>
+                        <li>User Authentication and Authorization</li>
+                        <li>Stripe API Integration</li>
+                </ul>
+                </p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://zootywaterapp.herokuapp.com")}>https://zootywaterapp.herokuapp.com</a>
                 <br />
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/zootywater", "_blank")}>https://github.com/OhziiiLov3/zootywater</a>
@@ -48,7 +54,13 @@ const Projects = () => {
         const content = (
             <>
                 <img className="project-image-popupbox" src={housing4u} alt="Housing4U Project..." />
-                <p>Paired Programming Project: A MEN Stack Application built using Node.js, Express.js, Mongoose, EJS on MongoDB</p>
+                <p>Full Stack Application built with Javascript, Express, Node, Mongoose, & MongoDB
+                This project focused on the implementation of RESTful APIS and CRUD concepts to reverse engineer Craigslists to streamline affordable housing to help users find housing more effectively.
+                </p>
+                <ul>
+                    <li>Paired Programming</li>
+                    <li>My responsibilities consisted of configuring and integrating Express.js, Mongoose, and MongoDB.</li>
+                </ul>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://housing4you.herokuapp.com" , "_blank")}> https://housing4you.herokuapp.com</a>
                 <br/>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/HOUSING4U", "_blank")}>https://github.com/OhziiiLov3/HOUSING4U</a>

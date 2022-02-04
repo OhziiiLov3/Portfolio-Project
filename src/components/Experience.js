@@ -8,6 +8,18 @@ const Experience = () => {
                 <h1>Experience</h1>
             </div>
             <div className="container experience-wrapper">
+                {/*  */}
+                <div className="timeline-block timeline-block-left">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h2>Strategio</h2>
+                        <h3>2022-Present</h3>
+                        <p> Collaborative 8 week Enterprise Simulator preparing for roles in DevOps, SRE and SWE.
+                        The training focused on cloud computing and deployment models (AWS, GPC, Azure), CI/CD w/(Jenkins, Travis CI, and Bamboo), Build Automation w/( Ant, Maven, and Gradle)
+                         </p>
+                    </div>
+                </div>
+                {/*  */}
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
