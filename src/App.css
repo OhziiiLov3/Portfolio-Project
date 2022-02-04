@@ -88,6 +88,7 @@ nav ul li {
 .header-wrapper{
   position: relative;
   background: url(globencer-qerfHAnHJcU-unsplash.jpg) no-repeat;
+  /* background: rgb(118, 118, 122); */
   background-size: cover;
   background-position: center;
   height:100vh; 
@@ -97,7 +98,7 @@ nav ul li {
 .main-info{
   display: flex;
   position: absolute;
-  top: 2rem;;
+  top: 5rem;;
   left: 0;
   right: 0;
   bottom: 0;
@@ -111,6 +112,7 @@ nav ul li {
 
 .main-info h1{
   color: var(--primary-black);
+  font-size: 3.5rem;
   text-transform: uppercase;
    text-shadow:
         0.03em 0 var(--primary-transparent),
@@ -121,7 +123,7 @@ nav ul li {
 
 @media(max-width:768px) {
   .main-info h1 {
-    font-size: 1.7rem !important;
+    font-size: 2rem !important;
   }
 }
 
@@ -130,7 +132,7 @@ nav ul li {
 
 
 .typed-text{
-font-size: 2rem;
+font-size: 3.5rem;
 color: var(--primary-transparent);
 text-shadow:
         0.03em 0 var(--primary-transparent-blue),
@@ -143,7 +145,7 @@ text-shadow:
 
 @media(max-width:768px) {
   .typed-text {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
   }
 }
 
