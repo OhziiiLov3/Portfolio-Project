@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import digipet from "../images/Digipet.png";
 import housing4u from "../images/Housing4u.png";
