@@ -14,8 +14,8 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h2>Strategio</h2>
                         <h3>2022-Present</h3>
-                        <p> Collaborative 8 week Enterprise Simulator preparing for roles in DevOps, SRE and SWE.
-                        The training focused on cloud computing and deployment models (AWS, GPC, Azure), CI/CD w/(Jenkins, Travis CI, and Bamboo), Build Automation w/( Ant, Maven, and Gradle)
+                        <p> Collaborative 8 week Enterprise Simulator preparing for roles in DevOps, SRE and SDET.
+                        The training focused on cloud computing, container and container orchestration, and deployment models such as AWS, GPC, Azure, CI/CD with Jenkins, Travis CI, and Bamboo, Build Automation with ( Ant, Maven, and Gradle), Container Orchestration with Docker and Kubernetes
                          </p>
                     </div>
                 </div>

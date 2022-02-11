@@ -91,7 +91,7 @@ const Projects = () => {
         const content = (
             <>
                 <img className="project-image-popupbox" src={wayfarer} alt="Wayfarer Project..." />
-                <p>Team Project: A travel post application built using Django, Python, and PostgreSQL.</p>
+                <p>Team Project: Full Stack Application built with Python, Django, PostgreSQL. This project required agile practices to meet sprint deadlines and complete assigned tasks. My responsibilities for this project consisted of configuring and launching the server, coding and building the PostgreSQL DB (including ERD and Wireframes). I also played a key role in project management and utilized Verison control to successfully deploy and release the application.</p>
                 <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://project2-wayfarer.herokuapp.com/", "_blank")}> https://project2-wayfarer.herokuapp.com/</a>
                 <br/>
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/OhziiiLov3/wayfarer", "_blank")}>https://github.com/OhziiiLov3/wayfarer</a>
