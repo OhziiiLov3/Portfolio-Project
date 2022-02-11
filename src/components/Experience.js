@@ -25,7 +25,7 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h2>General Assembly</h2>
                         <h3> 2020-2021</h3>
-                        <p>Three-month, 500-hour full-time and full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies including: HTML, CSS, SASS, Javascript, jQuery, PostgreSQL, MongoDB, Ruby, Ruby on Rails, AngularJS, NodeJS, ReactJS, Wordpress, Git, Github, and Agile/Scrum.</p>
+                        <p>Three-month, 500-hour full-time and full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies including: HTML, CSS, SASS, Javascript, jQuery, Python, Django, PostgreSQL, MongoDB, ExpressJs, NodeJS, ReactJS, RESTful APIs, Git, Github, and Agile/Scrum.</p>
                     </div>
                 </div>
                 {/*  */}
