@@ -23,16 +23,16 @@ const Services = () => {
                         <div className="col-md-4 col-sm-7">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="service-icon" icon={faDatabase} size="2x" /> </div>
-                                <Link smooth={true} to="contacts" offset={-110} href="#" className="service-link"><h3> Databases & Services</h3></Link>
+                                <Link smooth={true} to="projects" offset={-110} href="#" className="service-link"><h3> Databases & Services</h3></Link>
                                 <p> Technologies: Amazon RDB | Amazon DynamoDB | MySQL | MongoDB | PostgreSQL</p>
-                                <p> Technologies: AWS | Google Cloud | Docker | Kubernetes | Node.js</p>
+                                <p> Technologies: AWS | Google Cloud | Jenkins | Docker | Kubernetes | Terraform </p>
                             </div>
                         </div>
                         {/*  */}
                         <div className="col-md-4 col-sm-7">
                             <div className="box">
                                 <div className="circle"> <FontAwesomeIcon className="service-icon" icon={faTools} size="2x" /> </div>
-                                <a className="service-link" href="https://zootyworld.com/shop"> <h3>Certifications & Tools</h3> </a>
+                                <Link smooth={true} to="projects" offset={-110} href="#" className="service-link"><h3>Certifications & Tools</h3></Link>
                                 <p>Certifications: Software Engineering Immersive | PCEP - Certified Entry-Level Python Programmer</p>
                                 <p>Tools: Version Control(Git, GitHub, GitLab)| Ansible | GSuite | Kanban Board</p>
                             </div>

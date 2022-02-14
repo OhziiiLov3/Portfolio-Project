@@ -422,7 +422,7 @@ text-shadow:
 
 /* ****** MEDIA ******** */
 
-@media(maxwidth: 768px) {
+@media(maxwidth: 700px) {
   .experience .container{
     padding-left: 0;
   }
