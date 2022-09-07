@@ -14,7 +14,7 @@ const Experience = () => {
             <div className="timeline-content">
               <h2>General Assembly</h2>
               <h4>Instructor Assistant/Cloud Consultant</h4>
-              <h3>2017-2018</h3>
+              <h3>2022-Present</h3>
               <p>
                 {" "}
                 Instructional Associate supporting Cloud Services and Paas for
@@ -36,7 +36,7 @@ const Experience = () => {
             <div className="timeline-content">
               <h2>Strategio</h2>
               <h4>Technologist</h4>
-              <h3>2022-Present</h3>
+              <h3>Jan 2022-Mar 2022</h3>
               <p>
                 {" "}
                 Collaborative 8 week Enterprise Simulator preparing for roles in
