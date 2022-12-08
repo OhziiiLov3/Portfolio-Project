@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import digipet from "../images/Digipet.png";
+import jmowebsite from "../images/jmo-website.png";
 import housing4u from "../images/Housing4u.png";
 import wayfarer from "../images/Wayfarer.png";
 import zootyWater from "../images/Zootywaterapp.png";
@@ -118,74 +118,117 @@ const Projects = () => {
         fadeInSpeed: 500
     }
 
-    // DigiPet
+    // Jmo-website
     const openPopupboxDigipet = () => {
         const content = (
-            <>
-                <img className="project-image-popupbox" src={digipet} alt="Wayfarer Project..." />
-                <p>A Virtual Pet/Game built in pure HTML5/CSS with Javascript and JQuery</p>
-                <b>DEMO:</b> <a className="hyper-link" onClick={() => window.open("https://pages.git.generalassemb.ly/kbaskerville/ZootyMon/", "_blank")}>https://pages.git.generalassemb.ly/kbaskerville/ZootyMon/</a>
-                <br />
-                <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/OhziiiLov3/SEI_DigiPet-</a>
-            </>
-        )
+          <>
+            <img
+              className="project-image-popupbox"
+              src={jmowebsite}
+              alt="JMO Project..."
+            />
+            <p>
+              React Application designed for a small business to book client
+              appointments and offer fitness consultation
+            </p>
+            <b>DEMO:</b>{" "}
+            <a
+              className="hyper-link"
+              onClick={() =>
+                window.open("https://joinmyobession.netlify.app/", "_blank")
+              }
+            >
+              https://joinmyobession.netlify.app/
+            </a>
+            <br />
+            <b>GitHub:</b>{" "}
+            <a
+              className="hyper-link"
+              onClick={() =>
+                window.open(
+                  "https://github.com/OhziiiLov3/jmo-website-v2",
+                  "_blank"
+                )
+              }
+            >
+              https://github.com/OhziiiLov3/jmo-website-v2
+            </a>
+          </>
+        );
         PopupboxManager.open({ content })
         PopupboxManager.update({
             content,
             config: {
                 titleBar: {
-                    text: "Digipet",
+                    text: "JoinMyObession",
                 },
             },
         });
     }
 
     const popupboxConfigDigipet = {
-        titleBar: {
-            enable: true,
-            text: "DigiPet."
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
-    }
+      titleBar: {
+        enable: true,
+        text: "JoinMyObession",
+      },
+      fadeIn: true,
+      fadeInSpeed: 500,
+    };
 
     return (
-        <div id="projects" className="project-wrapper">
-            <div className="container">
-                <h1 className="text-uppercase text-center py-5">Projects</h1>
-                <div className="image-box-wrapper row row-cols-auto justify-content-center">
-                    <div className="project-image-box" onClick={openPopupboxZootywater}>
-                        <img className="project-image" src={zootyWater} alt="Zootywater App Project" />
-                        <div className="overflow"> </div>
-                            <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
-                    </div>
-                    {/*  */}
-                    <div className="project-image-box" onClick={openPopupboxHousing4u}>
-                        <img className="project-image" src={housing4u} alt="Housing4u Project" />
-                        <div className="overflow"></div>
-                            <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
-                    </div>
-                    {/*  */}
-                    <div className="project-image-box" onClick={openPopupboxWayfarer}>
-                        <img className="project-image" src={wayfarer} alt="Wayfarer Project" />
-                        <div className="overflow"></div>
-                            <FontAwesomeIcon className="project-icon" icon={faSearchPlus} /> 
-                    </div>
-                    {/*  */}
-                    <div className="project-image-box" onClick={openPopupboxDigipet}>
-                        <img className="project-image" src={digipet} alt="Digipet Project"/> 
-                        <div className="overflow"></div>
-                            <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
-                    </div>
-                </div>
+      <div id="projects" className="project-wrapper">
+        <div className="container">
+          <h1 className="text-uppercase text-center py-5">Projects</h1>
+          <div className="image-box-wrapper row row-cols-auto justify-content-center">
+            <div className="project-image-box" onClick={openPopupboxDigipet}>
+              <img
+                className="project-image"
+                src={jmowebsite}
+                alt="jmo Project"
+              />
+              <div className="overflow"></div>
+              <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
             </div>
-            <PopupboxContainer {...popupboxConfigZootyWater} />
-            <PopupboxContainer {...popupboxConfigHousing4u} />
-            <PopupboxContainer {...popupboxConfigWayfarer} />
-            <PopupboxContainer {...popupboxConfigDigipet} />
+
+            {/*  */}
+            <div className="project-image-box" onClick={openPopupboxZootywater}>
+              <img
+                className="project-image"
+                src={zootyWater}
+                alt="Zootywater App Project"
+              />
+              <div className="overflow"> </div>
+              <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
+            </div>
+            {/*  */}
+            <div className="project-image-box" onClick={openPopupboxHousing4u}>
+              <img
+                className="project-image"
+                src={housing4u}
+                alt="Housing4u Project"
+              />
+              <div className="overflow"></div>
+              <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
+            </div>
+            {/*  */}
+            <div className="project-image-box" onClick={openPopupboxWayfarer}>
+              <img
+                className="project-image"
+                src={wayfarer}
+                alt="Wayfarer Project"
+              />
+              <div className="overflow"></div>
+              <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
+            </div>
+            {/*  */}
+          </div>
         </div>
-    
-    )
+        <PopupboxContainer {...popupboxConfigZootyWater} />
+        <PopupboxContainer {...popupboxConfigHousing4u} />
+        <PopupboxContainer {...popupboxConfigWayfarer} />
+        <PopupboxContainer {...popupboxConfigDigipet} />
+      </div>
+    );
 }
 
 export default Projects;
